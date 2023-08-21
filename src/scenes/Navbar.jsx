@@ -27,7 +27,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
         <h4 className="font-playfair text-3xl font-bold">ZP</h4>
-        <img src="../assets/person-1.jpeg" alt="" />
+        {/* <img src="../assets/person-1.jpeg" alt="" /> */}
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
